@@ -1,2 +1,2 @@
 # code-word
-An end to end encryption application for android. 
+An end to end encryption chat application for android. 
