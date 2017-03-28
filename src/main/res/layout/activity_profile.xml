@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.alexhan.codeword.LoginActivity">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2"
+            android:layout_marginTop="30dp"
+            android:weightSum="1"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true">
+
+
+            <TextView
+                android:text="Welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="133dp"
+                android:id="@+id/welcome"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title" />
+
+
+            <Button
+                android:text="Send Message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/sendMessage"
+                android:clickable="true"/>
+            <Button
+                android:text="See Messages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/seeMessages"
+                android:clickable="true"/>
+            <Button
+                android:text="Add User"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/addUser"
+                android:clickable="true"/>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    </ScrollView>
+
+
